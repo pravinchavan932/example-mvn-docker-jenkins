@@ -9,13 +9,13 @@ CMD: Sets a default command or parameters that can be overridden when launching 
 
 1.	Import AWS compiler and MVN. 
 2.	Install the application of server. 
-Stage-1
+### Stage-1
 3.	Setup working directory /app.
 4.	CP pom.xml.
 5.	Install jar.
 6.	CP all file.
 7.	MVN clean package.
-Stage-2
+### Stage-2
 8.	Set working directory as /var/app.
 9.	CP jar file from stage 1.
 10.	CP production config in./config (Spring boot picks from here)
